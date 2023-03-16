@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;900&display=swap');
 
 *{
     padding: 0;
@@ -26,24 +26,57 @@ body div{
     position: relative;
 }
 
-.main-div div{
+.main-div div:nth-child(1){
     width: 100%;
     text-align: center;
     height: 10vh;
     position: absolute;
-    top: 30%;
+    top: 18%;
     z-index: 200;
 }
+
+.main-div div:nth-child(2){
+    width: 30%;
+    text-align: center;
+    height: 10vh;
+    position: absolute;
+    top: 31%;
+    z-index: 400;
+    /* background-color: #1e0d1f; */
+    color: #fff;
+    /* background-color: #be1ec7; */
+}
+
+.main-div div:nth-child(3){
+    width: 30%;
+    text-align: center;
+    height: 10vh;
+    position: absolute;
+    bottom: 33%;
+    z-index: 400;
+    background-color: #1e0d1f;
+    color: #fff;
+    /* background-color: #be1ec7; */
+}
+ 
 
 
 .main-div img{
     position: absolute;
     top: 0;
 }
- 
+
+
 body div h1{
     font-size: 4vw;
     font-family: 'Poppins', cursive;
     color: #fff;
     /* opacity: 0.5; */
+}
+
+body div h4{
+    font-size: 1.2vw;
+    font-family: 'Poppins', cursive;
+    font-weight: 500;
+    color: #fff;
 }
